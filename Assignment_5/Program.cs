@@ -4,7 +4,8 @@
     {
         //class Book
         //{
-        //    private string password = "secret";
+        //   // private string password = "secret";
+        //    internal int copiesInStock = 5;
         //}
         static void Main(string[] args)
         {
@@ -13,6 +14,11 @@
             //Console.WriteLine(myBook.password); // Error
             //#endregion
 
+
+            //#region Question 2
+            //Book myBook = new Book();
+            //Console.WriteLine(myBook.copiesInStock); //No Errors
+            //#endregion
         }
     }
 }
