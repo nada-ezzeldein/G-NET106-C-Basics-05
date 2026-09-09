@@ -9,6 +9,7 @@
         //    nonfiction,
         //    science
         //}
+
         //class Book
         //{
         //    private string password = "secret";
@@ -55,6 +56,13 @@
             //Console.WriteLine(fictionValue);
             //Console.WriteLine(nonFictionValue);
             //Console.WriteLine(scienceValue);
+            //#endregion
+
+
+            //#region Question 6
+            //int genreNumber = 1;
+            //Genre myGenre = (Genre)genreNumber;
+            //Console.WriteLine(myGenre);
             //#endregion
         }
     }
