@@ -5,9 +5,9 @@
 
         //enum Genre
         //{
-        //    Fiction,
-        //    NonFiction,
-        //    Science
+        //    fiction,
+        //    nonfiction,
+        //    science
         //}
         //class Book
         //{
@@ -16,9 +16,9 @@
         //    //  public string Title;
         //    public Genre Genre { get; set; }
         //}
-    
 
-      
+
+
         static void Main(string[] args)
         {
             //#region Question 1
@@ -44,6 +44,17 @@
             //Book myBook = new Book();
             //myBook.Genre = Genre.Science;
             //Console.WriteLine(myBook.Genre);
+            //#endregion
+
+
+            //#region Question 5
+            //int fictionValue = (int)Genre.fiction;
+            //int nonFictionValue = (int)Genre.nonfiction;
+            //int scienceValue = (int)Genre.science;
+
+            //Console.WriteLine(fictionValue);
+            //Console.WriteLine(nonFictionValue);
+            //Console.WriteLine(scienceValue);
             //#endregion
         }
     }
